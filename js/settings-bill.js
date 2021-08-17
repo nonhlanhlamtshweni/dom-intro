@@ -51,7 +51,6 @@ radioBillAddButton.addEventListener('click', function(){
 
     var billItemTypeWithSettings = document.querySelector("input[name='billItemTypeWithSettings']:checked");
         var billItemType = billItemTypeWithSettings.value
-        // billItemType will be 'call' or 'sms'
       
         if (billItemType === "call"){
             callsTotalSet += 2.75

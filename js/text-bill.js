@@ -36,4 +36,3 @@ addToBillBtn.addEventListener('click', function(){
         totalOneElem.classList.add("warning");
     }
 });
-
